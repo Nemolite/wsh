@@ -1,0 +1,218 @@
+/*
+Theme Name: storefront-child
+Template: storefront
+
+*/
+
+/* импортируем стили родительской темы */
+@import url("../storefront/style.css");
+
+.site-header {
+  background: #fff;
+}
+/**
+ * Delete a sidebar (cart)
+ */
+body.woocommerce-cart .widget-area {
+  display: none;
+}
+body.woocommerce-cart .content-area {
+  width: 100% !important;
+}
+
+/**
+ * The stayles for a block of garantee (cart) 
+ */
+
+.product-name__garantee {
+  width: 360px;
+  height: 70px;
+  background-color: #f5fbf6;
+  border: 1px solid #96d99d;
+  padding: 15px 9px;
+  border-radius: 3px;
+  margin-bottom: 15px;
+}
+
+.product-name__garantee-text-hover {
+  position: relative;
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #33b1d4;
+  color: white;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  z-index: 1;
+  display: none;
+}
+
+.product-name__garantee-text span {
+  width: 80px;
+  height: 35px;
+  text-align: center;
+  background: #077812;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-weight: 400;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 22px;
+  z-index: 1000;
+  color: white !important;
+}
+
+.cancel_hide {
+  display: none;
+}
+
+.text_hide {
+  display: none;
+}
+
+.cancel_show {
+  display: block;
+}
+
+.text_show {
+  display: block;
+}
+
+/**
+ * Delete a sidebar (checkout)
+ */
+body.woocommerce-checkout .widget-area {
+  display: none;
+}
+body.woocommerce-checkout .content-area {
+  width: 100% !important;
+}
+
+/**
+ * The stayles for a block of tooltip (cart) 
+ */
+.product-name__tooltip {
+  width: 350px;
+  height: 70px;
+  background-color: #f5fbf6;
+  border: 1px solid #f2e2af;
+  padding: 15px 9px;
+  border-radius: 3px;
+}
+
+.product-name__tooltip-text input {
+  width: 80px;
+  height: 35px;
+  text-align: center;
+  background: #f2c25c;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-weight: 400;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 22px;
+  z-index: 1000;
+  color: white !important;
+}
+
+button[name="update_cart"] {
+  display: none !important;
+}
+/**
+ * Timer
+ */
+.checkout-timer {
+  background-color: #fff7ba;
+  text-align: center;
+}
+
+.checkout-timer p {
+  margin: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+/**
+ * Icons and text
+ */
+.benefit {
+  width: 100%;
+  height: 150px;
+}
+
+.icons-block {
+  width: 24.95%;
+  height: 100%;
+  float: left;
+}
+
+.icon-top {
+  width: 100%;
+  height: 40%;
+}
+
+.text-botton {
+  width: 100%;
+  height: 60%;
+}
+
+/**
+ * Random surprise
+ */
+.random_surprise {
+  width: 260%;
+  height: auto;
+  font-weight: normal;
+  padding-top: 40px;
+}
+
+.random_surprise span {
+  color: #f5880c;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 20px;
+}
+
+#cart-surprise {
+  display: none;
+}
+
+#cart-surprise {
+  display: none;
+}
+
+/**
+ * Shipping
+ */
+
+.delivery_name {
+  width: 140%;
+}
+
+/**
+ * Shipment insurance
+ */
+
+.wrapper_insurance_checkbox {
+  width: 260%;
+  height: auto;
+  font-weight: normal;
+}
+
+#insurance_checkbox {
+  font-weight: normal;
+}
+
+#insurance {
+  // display: none;
+}
+
+/**
+ * Commission delivery
+ */
+
+#сommission_delivery {
+  display: none;
+}
